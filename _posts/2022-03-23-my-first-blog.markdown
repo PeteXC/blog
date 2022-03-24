@@ -2,9 +2,9 @@
 layout: post
 title:  "My First Blog"
 date:   2022-03-23 16:46:24 +0000
-categories: jekyll update
+categories: post
 ---
-So, welcome to my first blog post. It took me the better part of a day at work to find the best (and cheapest!) way to setup a blog under my own domain. By the way, at my work we have something called the "green room" where we can pursue our own projects and such for self-development, so I'm not just procrastinating at work :)
+So, welcome to my first blog post. It took me the better part of a day at work to find the best (and cheapest!) way to setup a blog under my own domain. By the way, at my work we have something called the "green room" where we can pursue our own projects and such for self-development, so I'm not just procrastinating at work :smile:
 
 The initial idea for this blog was to start documenting findings and keeping a record of my achievements and interesting things that I've learned over the course of my career.
 
@@ -25,7 +25,10 @@ Firstly, what you'll need to acquire a domain is to hit up a domain registar. As
 
 I got mine at Godaddy.
 
+<br>
+
 ---
+<br>
 
 ## Alright Pete you made me buy a domain. What now?
 
@@ -33,7 +36,7 @@ Great! You got your own domain! Logically the next step start putting content in
 
 Now this can be a bit of a sticking point... especially if you don't have much patience...
 
-Basically, there are a lot of options. It really depends on what you want. For a blog, I didn't want to spend much money, and I wanted the convenience of publishing as fast as possible.
+Basically, there are a lot of options and it really depends on what you want for a blog. In my case, I didn't want to spend much money, and I wanted the convenience of publishing as fast as possible.
 
 Turns out you need to compromise a little...(surpise!)
 
@@ -42,14 +45,16 @@ Let me simplify the options for you!
 1. [Wordpress][wordpress]
   - Cheap!
   - Convenient!
+  - Not fun!
 2. [AWS based][aws-website]
   - Cheaper!
-  - Less convenient!
+  - Least convenient!
   - Maybe more fun?!
 3. [Github Pages][gh-pages]
-  - My option!
   - Cheapest! (FREE)
   - Also convenient!
+  - Not as fun!
+  - My option!
 
 ### Wordpress
 
