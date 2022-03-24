@@ -58,7 +58,7 @@ Let me simplify the options for you!
 
 ### Wordpress
 
-I mean, I've heard of wordpress since university. Not great things, but it was in the context of trying to white-hat hack out of date wordpress websites in a secure systems lab.
+I mean, I've heard of wordpress since university. Not great things, but it *was* in the context of trying to white-hat hack out of date wordpress websites in a secure systems lab.
 
 As I understand, most websites currently are powered by these [CMS][CMS]'s as they're the easiest and fastest way to deliver a website.
 
