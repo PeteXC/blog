@@ -4,9 +4,11 @@ title:  "My First Blog"
 date:   2022-03-23 16:46:24 +0000
 categories: post
 ---
-So, welcome to my first blog post. It took me the better part of a day at work to find the best (and cheapest!) way to setup a blog under my own domain. By the way, at my work we have something called the "green room" where we can pursue our own projects and such for self-development, so I'm not just procrastinating at work :smile:
+So, welcome to my first blog post. It took me the better part of a day at work to find the best (and cheapest!) way to setup a blog under my own domain.
 
-The initial idea for this blog was to start documenting findings and keeping a record of my achievements and interesting things that I've learned over the course of my career.
+I've recently started a new job at Infinity Works (IW) as a consultant, and with all this new job energy I thought I'd like to look into doing some things that I've been meaning to for a long time but didn't have time... etc etc... Fortunately at IW we have something called the Green Room, where I can do self-development projects and such, and so starting this blog on work time is somewhat justified :smile:
+
+The initial idea here is to start documenting findings and keeping a record of my achievements and interesting things that I've learned over the course of my career.
 
 I mean... half of all the programming I've ever learnt is from someone's blog or a medium article, so why not give back with my own take on things...
 
@@ -50,15 +52,14 @@ Let me simplify the options for you!
   - Cheaper!
   - Least convenient!
   - Maybe more fun?!
-3. [Github Pages][gh-pages]
+3. [Github Pages][gh-pages] (my option)
   - Cheapest! (FREE)
   - Also convenient!
   - Not as fun!
-  - My option!
 
 ### Wordpress
 
-I mean, I've heard of wordpress since university. Not great things, but it *was* in the context of trying to white-hat hack out of date wordpress websites in a secure systems lab.
+I've heard of wordpress since university. Not great things, but it *was* in the context of a secure systems lab where sites running on out of date wordpress software were the most vulnerable systems to exploits.
 
 As I understand, most websites currently are powered by these [CMS][CMS]'s as they're the easiest and fastest way to deliver a website.
 
@@ -69,7 +70,7 @@ In my experience, I've heard of:
 
 And not much positive about either...
 
-But hey, what do I know, I've not tried either. And I almost considered a hosted wordpress site, since it's only about [£5 a month][wordpress-hosted]
+But hey, what do I know, I've not tried either. And I almost considered a hosted wordpress site, since it's only about [£5 a month][wordpress-hosted]. Maybe I'll try it one day and write a post on it.
 
 ### AWS Based
 
@@ -77,7 +78,7 @@ I say AWS, but I mean this could apply to all the cloud providers...GCP, Azure, 
 
 If you really want to get into it, you should start [here][aws-website].
 
-If you are a bit of cloud nerd (like me I guess), this would be a good way to flex your skills :muscle:
+If you are a bit of cloud nerd (like me I guess), this would be a good way to flex your skills :muscle:, and also 
 
 [godaddy]: https://godaddy.com
 [namecheap]: https://www.namecheap.com/
