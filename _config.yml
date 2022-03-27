@@ -27,8 +27,7 @@ linkedin_username: peter-chai
 instagram_username: thechailyf
 
 domain: peterchai.co.uk     # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://www.peterchai.co.uk  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /blog      # place folder name if the site is served in a subfolder
+url: https://www.blog.peterchai.co.uk  # the base hostname and protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
