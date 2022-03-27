@@ -14,7 +14,13 @@ I mean... half of all the programming I've ever learnt is from someone's blog or
 
 In this post I'll be walking through my decision making and how I started this very blog you're reading right now. Because... where better to start a first blog post?
 
-## How do I even start a website?
+There are three basic things that I will talk about today:
+
+1. Domains
+2. Hosting
+3. Content
+
+## How do I even start a website? (Domain)
 
 In my opinion, a good way to start creating a blog is to get your own domain. It's not strictly necessary as I'll get onto... But it's kinda fun to get this sense of ownership and I like to think fun is a good way to start any project.
 
@@ -32,9 +38,9 @@ I got mine at Godaddy.
 ---
 <br>
 
-## Alright Pete you made me buy a domain. What now?
+## Alright Pete you made me buy a domain. What now? (Hosting)
 
-Great! You got your own domain! Logically the next step start putting content in your shiny new domain.
+Great! You got your own domain! Logically the next step start putting content in your shiny new domain. **HOWEVER**, before you can do that, you're going to need someone to host your content.
 
 Now this can be a bit of a sticking point... especially if you don't have much patience...
 
@@ -78,7 +84,22 @@ I say AWS, but I mean this could apply to all the cloud providers...GCP, Azure, 
 
 If you really want to get into it, you should start [here][aws-website].
 
-If you are a bit of cloud nerd (like me I guess), this would be a good way to flex your skills :muscle:, and also 
+If you are a bit of cloud nerd (like what I'm aiming to be), this would be a good way to flex your skills :muscle:, and actually good fun along the way. Maybe I'll try this method soon.
+
+There's also many different ways to go about it with a cloud provider, as explained in the link above. But the problem with all of those options is that eventually... you're going to run into some costs.
+
+Lightsail is about minimum £3.50 a month... EC2 is going to be at least £5... Cloudfront and S3 is **very** cheap... but still not as cheap as free.
+
+However, you do get many pros with the latter method.
+   1. You can get an SSl certificate for your custom domain.
+   2. It's easily the most scalable option.
+   3. You can also enable your website to act as a REST API.
+   4. AWS can also register your domain and manage your DNS with route53.
+
+### Github Pages and Netlify
+
+Introducing [Github Pages][gh-pages], which is a feature that Github has supported since 2008. Totally free, although there are some [***soft limits***][gh-pages-limits] per repository.
+
 
 [godaddy]: https://godaddy.com
 [namecheap]: https://www.namecheap.com/
@@ -90,3 +111,4 @@ If you are a bit of cloud nerd (like me I guess), this would be a good way to fl
 [CMS]: https://en.wikipedia.org/wiki/Content_management_system
 [sitecore]: https://www.sitecore.com/
 [wordpress-hosted]: https://www.godaddy.com/en-uk/hosting/wordpress-hosting
+[gh-pages-limits]: https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#usage-limits
