@@ -6,11 +6,11 @@ categories: post
 ---
 So, welcome to my first blog post. It took me the better part of a day at work to find the best (and cheapest!) way to setup a blog under my own domain.
 
-I've recently started a new job at Infinity Works (IW) as a consultant, and with all this new job energy I thought I'd like to look into doing some things that I've been meaning to for a long time but didn't have time... etc etc... Fortunately at IW we have something called the Green Room, where I can do self-development projects and such, and so starting this blog on work time is somewhat justified :smile:
+I've recently started a new job at Infinity Works (IW) as a consultant, and with all this new job energy I thought I'd like to look into doing some things that I've been meaning to for a long time but didn't have time.etc... Fortunately at IW we have something called the Green Room, where I am able to do some self-development projects and such, and so starting this blog on work time is somewhat justified :smile:
 
 The initial idea here is to start documenting findings and keeping a record of my achievements and interesting things that I've learned over the course of my career.
 
-I mean... half of all the programming I've ever learnt is from someone's blog or a medium article, so why not give back with my own take on things...
+I mean... half of all the programming I've ever learnt is from someone's blog or a medium article, so why not give back with my own take on things?
 
 In this post I'll be walking through my decision making and how I started this very blog you're reading right now. Because... where better to start a first blog post?
 
@@ -65,8 +65,7 @@ Let me simplify the options for you!
 
 ### Wordpress
 
-I've heard of wordpress since university. Not great things, but it *was* in the context of a secure systems lab where sites running on out of date wordpress software were the most vulnerable systems to exploits.
-
+I've heard of wordpress for a while now, it's a household name and it's quite consistently rated as one of the [best][techradar-cms] CMS around!
 As I understand, most websites currently are powered by these [CMS][CMS]'s as they're the easiest and fastest way to deliver a website.
 
 In my experience, I've heard of:
@@ -80,7 +79,7 @@ But hey, what do I know, I've not tried either. And I almost considered a hosted
 
 ### AWS Based
 
-I say AWS, but I mean this could apply to all the cloud providers...GCP, Azure, DigitalOcean...
+I say AWS, but I mean this could apply to all the cloud providers meaning GCP, Azure, DigitalOcean to name a few.
 
 If you really want to get into it, you should start [here][aws-website].
 
@@ -88,7 +87,7 @@ If you are a bit of cloud nerd (like what I'm aiming to be), this would be a goo
 
 There's also many different ways to go about it with a cloud provider, as explained in the link above. But the problem with all of those options is that eventually... you're going to run into some costs.
 
-Lightsail is about minimum £3.50 a month... EC2 is going to be at least £5... Cloudfront and S3 is **very** cheap... but still not as cheap as free.
+Running wordpress on Lightsail is about minimum £3.50 a month... EC2 is going to be at least £5... Cloudfront and S3 is **very** cheap... but still not as cheap as free.
 
 However, you do get many pros with the latter method.
    1. You can get an SSl certificate for your custom domain.
@@ -99,6 +98,8 @@ However, you do get many pros with the latter method.
 ### Github Pages and Netlify
 
 Introducing [Github Pages][gh-pages], which is a feature that Github has supported since 2008. Totally free, although there are some [***soft limits***][gh-pages-limits] per repository.
+
+There is also [netlify] which is a good alternative to Github pages and it features less restrictive limits for the free version. My friend Anton showed me this [link](https://savjee.be/2020/05/benchmarking-static-website-hosting-providers/), which I used a basis to justify not investigating Netlify just yet as it seemed slower than Github pages :joy:
 
 
 [godaddy]: https://godaddy.com
@@ -112,3 +113,5 @@ Introducing [Github Pages][gh-pages], which is a feature that Github has support
 [sitecore]: https://www.sitecore.com/
 [wordpress-hosted]: https://www.godaddy.com/en-uk/hosting/wordpress-hosting
 [gh-pages-limits]: https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#usage-limits
+[techradar-cms]: https://www.techradar.com/uk/best/cms
+[netlify]: https://www.netlify.com
