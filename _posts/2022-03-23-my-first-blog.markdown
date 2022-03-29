@@ -33,6 +33,10 @@ Firstly, what you'll need to do is to acquire a domain is to hit up a domain reg
 
 I got mine at Godaddy.
 
+![Godaddy](https://sm.pcmag.com/t/pcmag_me/review/g/godaddy-we/godaddy-web-hosting_x4tv.1200.jpg)
+
+It's worth noting that students should visit the [Github Student Developer Pack](https://education.github.com/pack), as there are some services that offer free domain names for at least a year or two!
+
 <br>
 
 ---
@@ -68,6 +72,8 @@ Let me simplify the options for you!
 I've heard of wordpress for a while now, it's a household name and it's quite consistently rated as one of the [best][techradar-cms] CMS around!
 As I understand, most websites currently are powered by these [CMS][CMS]'s as they're the easiest and fastest way to deliver a website.
 
+![Wordpress](https://s.w.org/about/images/logos/wordpress-logo-stacked-rgb.png)
+
 In my experience, I've heard of:
 
 1. [Wordpress][wordpress]
@@ -80,6 +86,12 @@ But hey, what do I know, I've not tried either. And I almost considered a hosted
 ### AWS Based
 
 I say AWS, but I mean this could apply to all the cloud providers meaning GCP, Azure, DigitalOcean to name a few.
+
+With the power of the cloud, you can make a website in so many different ways. You could:
+
+1. Use something like to distribute static websites hosted on S3 buckets
+2. Run an apache server off of an EC2 instance or some kind of VPS
+3. Use an EC2 instance or VPS to run wordpress
 
 If you really want to get into it, you should start [here][aws-website].
 
@@ -99,8 +111,26 @@ However, you do get many pros with the latter method.
 
 Introducing [Github Pages][gh-pages], which is a feature that Github has supported since 2008. Totally free, although there are some [***soft limits***][gh-pages-limits] per repository.
 
-There is also [Netlify][netlify] which is a good alternative to Github pages and it features less restrictive limits for the free version. My friend Anton showed me this [link](https://savjee.be/2020/05/benchmarking-static-website-hosting-providers/), which I used a basis to justify not investigating Netlify just yet as it seemed slower than Github pages :joy:
+There is also [Netlify][netlify] which is a good alternative to Github pages and it features less restrictive limits for the free version. My friend Anton showed me this [link](https://savjee.be/2020/05/benchmarking-static-website-hosting-providers/), which I used a basis to justify not using Netlify just yet as it seemed to have marginally slower response times than Github pages :joy:. Again, if I need it one day, I'll look into it...
 
+The great thing about Github pages is that it's so easy to setup. All it takes is to create a Github repository, and then going into the settings to pick a theme, and you will have a .github.io website in literally no time.
+
+And **boom**! You have a website! No domain name required.
+
+Although if you wanted to connect your personal domain to github pages, it's also possible [to do that](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages). And I do highly recommend doing that as it makes your blog unique.
+
+Github pages comes preloaded with [Jekyll](https://jekyllrb.com/) as the [Static Site Generator](https://www.cloudflare.com/en-gb/learning/performance/static-site-generator/), which is powered by Ruby. And this will lead me nicely onto...
+
+<br>
+
+---
+
+<br>
+
+## Halp, I don't know HTML, how do I make some (**CONTENT**)?
+
+
+The [Jamstack](https://jamstack.org/), as I've seen it called, is a modern and simple method to build and deploy a static website with the least faff as possible. It's how I created this website, and it's most of what I've been talking about in this blog post.
 
 [godaddy]: https://godaddy.com
 [namecheap]: https://www.namecheap.com/
