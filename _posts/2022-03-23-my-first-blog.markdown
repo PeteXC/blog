@@ -72,7 +72,13 @@ Let me simplify the options for you!
 I've heard of wordpress for a while now, it's a household name and it's quite consistently rated as one of the [best][techradar-cms] CMS around!
 As I understand, most websites currently are powered by these [CMS][CMS]'s as they're the easiest and fastest way to deliver a website.
 
-![Wordpress](https://s.w.org/about/images/logos/wordpress-logo-stacked-rgb.png)
+<br>
+
+<p align="center">
+  <img width="600" height="400" src="https://s.w.org/about/images/logos/wordpress-logo-stacked-rgb.png">
+</p>
+
+<br>
 
 In my experience, I've heard of:
 
@@ -111,7 +117,8 @@ However, you do get many pros with the latter method.
 
 Introducing [Github Pages][gh-pages], which is a feature that Github has supported since 2008. Totally free, although there are some [***soft limits***][gh-pages-limits] per repository.
 
-There is also [Netlify][netlify] which is a good alternative to Github pages and it features less restrictive limits for the free version. My friend Anton showed me this [link](https://savjee.be/2020/05/benchmarking-static-website-hosting-providers/), which I used a basis to justify not using Netlify just yet as it seemed to have marginally slower response times than Github pages :joy:. Again, if I need it one day, I'll look into it...
+There is also [Netlify][netlify] which is a good alternative to Github pages and it features less restrictive limits for the free version. My friend Anton showed me this [link](https://savjee.be/2020/05/benchmarking-static-website-hosting-providers/), which I used a basis to justify not using Netlify just yet as it seemed to have marginally slower response times than Github pages :joy:. Again, if I need it one day, I'll look into it... But be warned that netlify currently doesn't support [subdomains](https://docs.netlify.com/domains-https/netlify-dns/)
+
 
 The great thing about Github pages is that it's so easy to setup. All it takes is to create a Github repository, and then going into the settings to pick a theme, and you will have a .github.io website in literally no time.
 
@@ -129,8 +136,45 @@ Github pages comes preloaded with [Jekyll](https://jekyllrb.com/) as the [Static
 
 ## Halp, I don't know HTML, how do I make some (**CONTENT**)?
 
-
 The [Jamstack](https://jamstack.org/), as I've seen it called, is a modern and simple method to build and deploy a static website with the least faff as possible. It's how I created this website, and it's most of what I've been talking about in this blog post.
+
+Using what is known as a [Static Site Generator](https://www.cloudflare.com/en-gb/learning/performance/static-site-generator/) (SSGs), you can quite easily generate the necessary HTML and CSS for a good looking website without much fuss. That's basically what SSGs do; it simplifies the process of writing content as you can do it in something like markdown, and easily have that compile into a beautiful webpage.
+
+There is a plethora of options here (as usual!), and honestly I don't know enough here to give any recommendations. But I would avoid Next.js and Gatsby for simple websites like a blog since I believe they're used more for deploying static react apps, and I wouldn't bother with something as complex as react for a blog.
+
+[Eleventy](https://www.11ty.dev/) (written in JS) and [Hugo](https://gohugo.io/) (written in Go) look very interesting and up and coming in terms of userbase and functionality.
+
+[Jekyll](https://jekyllrb.com/) has been around for longer and is already quite established, but ecosystem of Ruby with Bundler and Gemfiles feel a bit heavy for building a static website. Look at the [setup](https://jekyllrb.com/docs/installation/macos/) for Jekyll (despite the fact that they try to hide this with a nice simple [quickstart](https://jekyllrb.com/docs/)).
+
+Compare this to Eleventy's super quick (non-existent) [setup](https://www.11ty.dev/#quick-start), or even Hugo's no bullshit setup [here](https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site).
+
+I might consider moving to Hugo and get rid of ruby off my system entirely.
+
+<br>
+
+---
+
+<br>
+
+## Summary
+
+To summarise, below is a diagram that describes the process of making this website.
+
+![MyWebsiteDiagram](../static/website.jpg)
+
+<br>
+
+Although this could easily be done alternatively as:
+
+<br>
+
+![MyDesiredDiagram](../static/desiredwebsite.jpg)
+
+If you'd like to find out more about how other people set up their websites I highly recommend using blogging platforms like [Hashnode](https://hashnode.com) or [Dev.to](https://dev.to) and going to other people's blogs and see what they've done, such as [this guy](https://blog.cavelab.dev/2021/08/deploying-hugo-blog-to-s3/).
+
+Thanks for reading my first blog post and I hope you will find my future posts interesting!
+
+*(P.S.) I used [Miro](https://miro.com) for the images produced above and it's an incredibly useful tool*
 
 [godaddy]: https://godaddy.com
 [namecheap]: https://www.namecheap.com/
