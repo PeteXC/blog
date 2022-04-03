@@ -1,9 +1,11 @@
----
-layout: post
-title:  "My First Blog"
-date:   2022-03-23 16:46:24 +0000
-categories: post
----
++++
+title = "How I made my first blog"
+date = "2022-03-23"
+author = "Peter C"
+cover = "/img/website.jpg"
+description = "So, welcome to my first blog post. It took me the better part of a day at work to find the best (and cheapest!) way to setup a blog under my own domain."
++++
+
 So, welcome to my first blog post. It took me the better part of a day at work to find the best (and cheapest!) way to setup a blog under my own domain.
 
 I've recently started a new job at Infinity Works (IW) as a consultant, and with all this new job energy I thought I'd like to look into doing some things that I've been meaning to for a long time but didn't have time.etc... Fortunately at IW we have something called the Green Room, where I am able to do some self-development projects and such, and so starting this blog on work time is somewhat justified :smile:
@@ -160,7 +162,7 @@ I might consider moving to Hugo and get rid of ruby off my system entirely.
 
 To summarise, below is a diagram that describes the process of making this website.
 
-![MyWebsiteDiagram](../static/website.jpg)
+![MyWebsiteDiagram](/img/website.jpg)
 
 <br>
 
@@ -168,7 +170,7 @@ Although this could easily be done alternatively as:
 
 <br>
 
-![MyDesiredDiagram](../static/desiredwebsite.jpg)
+![MyDesiredDiagram](/img/desiredwebsite.jpg)
 
 If you'd like to find out more about how other people set up their websites I highly recommend using blogging platforms like [Hashnode](https://hashnode.com) or [Dev.to](https://dev.to) and going to other people's blogs and see what they've done, such as [this guy](https://blog.cavelab.dev/2021/08/deploying-hugo-blog-to-s3/).
 
