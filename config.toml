@@ -1,18 +1,19 @@
-baseUrl = "https://blog.peterchai.co.uk"
+baseurl = "/"
 languageCode = "en-us"
 theme = "hugo-theme-hello-friend"
 paginate = 5
-enableEmoji = true
 
 [params]
   # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "content/posts"
+  contentTypeName = "post"
   # "light" or "dark"
   defaultTheme = "dark"
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 3
   # Enable to show reading time in minutes for posts
-  showReadingTime = true
+  showReadingTime = false
+
+  enableEmoji = true
 
 [languages]
   [languages.en]
@@ -29,10 +30,9 @@ enableEmoji = true
     minuteReadingTime = "min read"
     dateFormatSingle = "2006-01-02"
     dateFormatList = "2006-01-02"
-    lastModDisplay = "Modified:"
 
     [languages.en.params.logo]
-      logoText = "pete@myblog:~$"
+      logoText = "pete@blog:~$"
       logoHomeLink = "/"
     # or
     #
@@ -41,13 +41,13 @@ enableEmoji = true
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "home"
-        name = "Home"
-        url = "/"
-      [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
         url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
       [[languages.en.menu.main]]
         identifier = "archive"
         name = "Archive"

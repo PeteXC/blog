@@ -1,8 +1,8 @@
----
-layout: page
-title: About
-permalink: /about/
----
++++
+title = "About"
+author = "Peter C"
++++
+
 
 I am Pete.
 

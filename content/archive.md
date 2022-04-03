@@ -1,5 +1,5 @@
 +++
-title = "My Posts"
+title = "Archive"
 layout = "list"
 url = "/archive"
 type = "archive"
