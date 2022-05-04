@@ -33,7 +33,7 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "pete@blog:~$"
-      logoHomeLink = "/"
+      logoHomeLink = "/posts"
     # or
     #
     # path = "/img/your-example-logo.svg"

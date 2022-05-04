@@ -4,6 +4,7 @@ date = "2022-03-23"
 author = "Peter C"
 cover = "/img/website.jpg"
 description = "So, welcome to my first blog post. It took me the better part of a day at work to find the best (and cheapest!) way to setup a blog under my own domain."
+Categories = ["archives"]
 +++
 
 So, welcome to my first blog post. It took me the better part of a day at work to find the best (and cheapest!) way to setup a blog under my own domain.
