@@ -3,7 +3,7 @@ name: github pages
 on:
   push:
     branches:
-      - aWholeNewBranch  # Set a branch to deploy
+      - main-hugo  # Set a branch to deploy
   pull_request:
 
 jobs:
