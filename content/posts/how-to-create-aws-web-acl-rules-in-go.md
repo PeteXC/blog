@@ -23,13 +23,13 @@ Let's start by creating an empty cdk.go file and run the following to initialise
 
 We can start by importing the Go CDK package for AWS WAF at [awswafv2](https://pkg.go.dev/github.com/aws/aws-cdk-go/awscdk/v2/awswafv2) right into our cdk.go file:
 
-```
+```go
 import 	"github.com/aws/aws-cdk-go/awscdk/v2/awswafv2"
 ```
 
 Or you could use the older version:
 
-```
+```go
 import "github.com/aws/aws-cdk-go/awscdk/awswafv2"
 ```
 
@@ -51,7 +51,7 @@ func main() {
 }
 ```
 
-Note that Cloudfront WAFs [must be in us-east-1](https://docs.aws.amazon.com/waf/latest/developerguide/how-aws-waf-works.html) as of the writing of this article.
+Note that WAFs bound for Cloudfront distributions [must be in us-east-1](https://docs.aws.amazon.com/waf/latest/developerguide/how-aws-waf-works.html) at the writing of this article.
 
 ## Create a WAF
 
@@ -81,5 +81,9 @@ But hold-up, you still haven't got any rules to add to your web ACL!
 
 To understand how Web ACL rule priority works read [this](https://docs.aws.amazon.com/waf/latest/developerguide/web-acl-processing-order.html) and for how rules work in general the [AWS docs](https://docs.aws.amazon.com/waf/latest/developerguide/waf-rules.html) I would recommend reading. It's fairly straighforward and the basic structure of a rule looks like this
 
-1. 
+1. Statement
+2. Action
+3. Priority
+
+
 
